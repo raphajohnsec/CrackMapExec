@@ -391,7 +391,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "impacket"
-version = "0.10.1.dev1+20220628.224634.5122bcf6"
+version = "0.10.1.dev1+20220720.103933.3c6713e3"
 description = "Network protocols Constructors and Dissectors"
 category = "main"
 optional = false
@@ -399,7 +399,7 @@ python-versions = "*"
 develop = false
 
 [package.dependencies]
-chardet = "*"
+charset_normalizer = "*"
 dsinternals = "*"
 flask = ">=1.0"
 future = "*"
@@ -407,14 +407,14 @@ ldap3 = ">2.5.0,<2.5.2 || >2.5.2,<2.6 || >2.6"
 ldapdomaindump = ">=0.9.0"
 pyasn1 = ">=0.2.3"
 pycryptodomex = "*"
-pyOpenSSL = ">=0.16.2"
+pyOpenSSL = ">=21.0.0"
 six = "*"
 
 [package.source]
 type = "git"
-url = "https://github.com/mpgn/impacket.git"
+url = "https://github.com/SecureAuthCorp/impacket.git"
 reference = "master"
-resolved_reference = "5122bcf6b188416d5fb9d0725e099866ab895c9c"
+resolved_reference = "3c6713e309cae871d685fa443d3e21b7026a2155"
 
 [[package]]
 name = "importlib-metadata"

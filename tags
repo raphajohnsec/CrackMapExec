@@ -1,0 +1,940 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CERT_PATH	cme/first_run.py	/^CERT_PATH = os.path.join(CME_PATH, 'cme.pem')$/;"	v
+CHUNK_SIZE	cme/modules/spider_plus.py	/^CHUNK_SIZE = 4096$/;"	v
+CMEAdapter	cme/logger.py	/^class CMEAdapter(logging.LoggerAdapter):$/;"	c
+CMEDBMenu	cme/cmedb.py	/^class CMEDBMenu(cmd.Cmd):$/;"	c
+CMEModule	cme/modules/IOXIDResolver.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/MachineAccountQuota.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/adcs.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/bh_owned.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/dfscoerce.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/drop_searchConnector-ms.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/empire_exec.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/enum_avproducts.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/enum_dns.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/example_module.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/get_description.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/get_netconnections.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/gpp_autologin.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/gpp_password.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/handlekatz.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/hash_spider.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/laps.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/ldap-checker.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/ldap-signing.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/lsassy_dump.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/met_inject.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/ms17-010.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/mssql_priv.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/nanodump.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/nopac.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/petitpotam.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/procdump.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/rdp.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/runasppl.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/scuffy.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/shadowcoerce.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/slinky.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/spider_plus.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/spooler.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/subnets.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/test_connection.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/uac.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/user_description.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/wdigest.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/web_delivery.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/webdav.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/wireless.py	/^class CMEModule:$/;"	c
+CMEModule	cme/modules/zerologon.py	/^class CMEModule:$/;"	c
+CMESMBServer	cme/servers/smb.py	/^class CMESMBServer(threading.Thread):$/;"	c
+CMEServer	cme/servers/http.py	/^class CMEServer(threading.Thread):$/;"	c
+CME_PATH	cme/first_run.py	/^CME_PATH = os.path.expanduser('~\/.cme')$/;"	v
+CONFIG_PATH	cme/first_run.py	/^CONFIG_PATH = os.path.join(CME_PATH, 'cme.conf')$/;"	v
+CoerceAuth	cme/modules/petitpotam.py	/^class CoerceAuth():$/;"	c
+CoerceAuth	cme/modules/shadowcoerce.py	/^class CoerceAuth():$/;"	c
+Context	cme/context.py	/^class Context:$/;"	c
+DCERPCSessionError	cme/modules/dfscoerce.py	/^class DCERPCSessionError(DCERPCException):$/;"	c
+DCERPCSessionError	cme/modules/petitpotam.py	/^class DCERPCSessionError(DCERPCException):$/;"	c
+DCERPCSessionError	cme/modules/shadowcoerce.py	/^class DCERPCSessionError(DCERPCException):$/;"	c
+DatabaseNavigator	cme/cmedb.py	/^class DatabaseNavigator(cmd.Cmd):$/;"	c
+DoesLdapsCompleteHandshake	cme/modules/ldap-checker.py	/^        def DoesLdapsCompleteHandshake(dcIp):$/;"	f	function:CMEModule.on_login
+EFS_CERTIFICATE_BLOB	cme/modules/petitpotam.py	/^class EFS_CERTIFICATE_BLOB(NDRSTRUCT):$/;"	c
+EFS_EXIM_PIPE	cme/modules/petitpotam.py	/^class EFS_EXIM_PIPE(NDRSTRUCT):$/;"	c
+EFS_HASH_BLOB	cme/modules/petitpotam.py	/^class EFS_HASH_BLOB(NDRSTRUCT):$/;"	c
+EFS_RPC_BLOB	cme/modules/petitpotam.py	/^class EFS_RPC_BLOB(NDRSTRUCT):$/;"	c
+ENCRYPTED_FILE_METADATA_SIGNATURE	cme/modules/petitpotam.py	/^class ENCRYPTED_FILE_METADATA_SIGNATURE(NDRSTRUCT):    $/;"	c
+ENCRYPTION_CERTIFICATE	cme/modules/petitpotam.py	/^class ENCRYPTION_CERTIFICATE(NDRSTRUCT):$/;"	c
+ENCRYPTION_CERTIFICATE_HASH	cme/modules/petitpotam.py	/^class ENCRYPTION_CERTIFICATE_HASH(NDRSTRUCT):$/;"	c
+ENCRYPTION_CERTIFICATE_HASH_LIST	cme/modules/petitpotam.py	/^class ENCRYPTION_CERTIFICATE_HASH_LIST(NDRSTRUCT):$/;"	c
+ENCRYPTION_CERTIFICATE_LIST	cme/modules/petitpotam.py	/^class ENCRYPTION_CERTIFICATE_LIST(NDRSTRUCT):$/;"	c
+EXIMPORT_CONTEXT_HANDLE	cme/modules/petitpotam.py	/^class EXIMPORT_CONTEXT_HANDLE(NDRSTRUCT):$/;"	c
+EfsRpcEncryptFileSrv	cme/modules/petitpotam.py	/^class EfsRpcEncryptFileSrv(NDRCALL):$/;"	c
+EfsRpcEncryptFileSrvResponse	cme/modules/petitpotam.py	/^class EfsRpcEncryptFileSrvResponse(NDRCALL):$/;"	c
+EfsRpcOpenFileRaw	cme/modules/petitpotam.py	/^    def EfsRpcOpenFileRaw(self, dce, listener):$/;"	m	class:CoerceAuth
+EfsRpcOpenFileRaw	cme/modules/petitpotam.py	/^class EfsRpcOpenFileRaw(NDRCALL):$/;"	c
+EfsRpcOpenFileRawResponse	cme/modules/petitpotam.py	/^class EfsRpcOpenFileRawResponse(NDRCALL):$/;"	c
+IsPathShadowCopied	cme/modules/shadowcoerce.py	/^    def IsPathShadowCopied(self, dce, listener):$/;"	m	class:CoerceAuth
+IsPathShadowCopied	cme/modules/shadowcoerce.py	/^class IsPathShadowCopied(NDRCALL):$/;"	c
+IsPathShadowCopiedResponse	cme/modules/shadowcoerce.py	/^class IsPathShadowCopiedResponse(NDRCALL):$/;"	c
+IsPathSupported	cme/modules/shadowcoerce.py	/^    def IsPathSupported(self, dce, listener):$/;"	m	class:CoerceAuth
+IsPathSupported	cme/modules/shadowcoerce.py	/^class IsPathSupported(NDRCALL):$/;"	c
+IsPathSupportedResponse	cme/modules/shadowcoerce.py	/^class IsPathSupportedResponse(NDRCALL):$/;"	c
+KNOWN_PROTOCOLS	cme/modules/spooler.py	/^KNOWN_PROTOCOLS = {$/;"	v
+KNOWN_PROTOCOLS	cme/protocols/smb/passpol.py	/^    KNOWN_PROTOCOLS = {$/;"	v	class:PassPolDump
+KNOWN_PROTOCOLS	cme/protocols/smb/samruser.py	/^    KNOWN_PROTOCOLS = {$/;"	v	class:UserSamrDump
+KerberosAttacks	cme/protocols/ldap/kerberos.py	/^class KerberosAttacks:$/;"	c
+LDAPConnect	cme/protocols/ldap/smbldap.py	/^class LDAPConnect:$/;"	c
+MAX_ATTEMPTS	cme/modules/zerologon.py	/^MAX_ATTEMPTS = 2000 # False negative chance: 0.04%$/;"	v
+MMCEXEC	cme/protocols/smb/mmcexec.py	/^class MMCEXEC:$/;"	c
+MSFSRVP_ERROR_CODES	cme/modules/shadowcoerce.py	/^MSFSRVP_ERROR_CODES = {$/;"	v
+MSSQLEXEC	cme/protocols/mssql/mssqlexec.py	/^class MSSQLEXEC:$/;"	c
+NetrDfsAddRoot	cme/modules/dfscoerce.py	/^class NetrDfsAddRoot(NDRCALL):$/;"	c
+NetrDfsAddRootResponse	cme/modules/dfscoerce.py	/^class NetrDfsAddRootResponse(NDRCALL):$/;"	c
+NetrDfsRemoveStdRoot	cme/modules/dfscoerce.py	/^    def NetrDfsRemoveStdRoot(self, dce, listener):$/;"	m	class:TriggerAuth
+NetrDfsRemoveStdRoot	cme/modules/dfscoerce.py	/^class NetrDfsRemoveStdRoot(NDRCALL):$/;"	c
+NetrDfsRemoveStdRootResponse	cme/modules/dfscoerce.py	/^class NetrDfsRemoveStdRootResponse(NDRCALL):$/;"	c
+OPNUMS	cme/modules/shadowcoerce.py	/^OPNUMS = {$/;"	v
+PassPolDump	cme/protocols/smb/passpol.py	/^class PassPolDump:$/;"	c
+RemoteFile	cme/protocols/smb/remotefile.py	/^class RemoteFile:$/;"	c
+RequestHandler	cme/servers/http.py	/^class RequestHandler(BaseHTTPRequestHandler):$/;"	c
+SMBEXEC	cme/protocols/smb/smbexec.py	/^class SMBEXEC:$/;"	c
+SMBSpider	cme/protocols/smb/smbspider.py	/^class SMBSpider:$/;"	c
+SMBSpiderPlus	cme/modules/spider_plus.py	/^class SMBSpiderPlus:$/;"	c
+SMB_HEADER	cme/modules/ms17-010.py	/^class SMB_HEADER(Structure):$/;"	c
+SuppressFilter	cme/protocols/winrm.py	/^class SuppressFilter(logging.Filter):$/;"	c
+TMP_PATH	cme/first_run.py	/^    TMP_PATH = os.getenv('LOCALAPPDATA') + '\\\\Temp\\\\cme_hosted'$/;"	v
+TMP_PATH	cme/first_run.py	/^    TMP_PATH = os.path.join('\/data','data', 'com.termux', 'files', 'usr', 'tmp', 'cme_hosted')$/;"	v
+TMP_PATH	cme/first_run.py	/^TMP_PATH = os.path.join('\/tmp', 'cme_hosted')$/;"	v
+TSCH_EXEC	cme/protocols/smb/atexec.py	/^class TSCH_EXEC:$/;"	c
+TriggerAuth	cme/modules/dfscoerce.py	/^class TriggerAuth():$/;"	c
+User	cme/modules/mssql_priv.py	/^class User:$/;"	c
+UserExitedProto	cme/cmedb.py	/^class UserExitedProto(Exception):$/;"	c
+UserSamrDump	cme/protocols/smb/samruser.py	/^class UserSamrDump:$/;"	c
+WMIEXEC	cme/protocols/smb/wmiexec.py	/^class WMIEXEC:$/;"	c
+WS_PATH	cme/first_run.py	/^WS_PATH = os.path.join(CME_PATH, 'workspaces')$/;"	v
+__del__	cme/modules/user_description.py	/^    def __del__(self):$/;"	m	class:CMEModule	file:
+__fetchList	cme/modules/spooler.py	/^    def __fetchList(self, rpctransport):$/;"	m	class:CMEModule	file:
+__init__	cme/cmedb.py	/^    def __init__(self, config_path):$/;"	m	class:CMEDBMenu
+__init__	cme/cmedb.py	/^    def __init__(self, main_menu, database, proto):$/;"	m	class:DatabaseNavigator
+__init__	cme/connection.py	/^    def __init__(self, args, db, host):$/;"	m	class:connection
+__init__	cme/context.py	/^    def __init__(self, db, logger, args):$/;"	m	class:Context
+__init__	cme/loaders/module_loader.py	/^    def __init__(self, args, db, logger):$/;"	m	class:module_loader
+__init__	cme/loaders/protocol_loader.py	/^    def __init__(self):$/;"	m	class:protocol_loader
+__init__	cme/logger.py	/^    def __init__(self, logger_name='CME', extra=None):$/;"	m	class:CMEAdapter
+__init__	cme/modules/dfscoerce.py	/^    def __init__(self, error_string=None, error_code=None, packet=None):$/;"	m	class:DCERPCSessionError
+__init__	cme/modules/mssql_priv.py	/^    def __init__(self, username):$/;"	m	class:User
+__init__	cme/modules/petitpotam.py	/^    def __init__(self, error_string=None, error_code=None, packet=None):$/;"	m	class:DCERPCSessionError
+__init__	cme/modules/shadowcoerce.py	/^    def __init__(self, error_string=None, error_code=None, packet=None):$/;"	m	class:DCERPCSessionError
+__init__	cme/modules/spider_plus.py	/^    def __init__(self, smb, logger, read_only, exclude_dirs, exclude_exts, max_file_size, output_folder):$/;"	m	class:SMBSpiderPlus
+__init__	cme/protocols/ldap.py	/^    def __init__(self, args, db, host):$/;"	m	class:ldap
+__init__	cme/protocols/ldap/database.py	/^    def __init__(self, conn):$/;"	m	class:database
+__init__	cme/protocols/ldap/kerberos.py	/^    def __init__(self, connection):$/;"	m	class:KerberosAttacks
+__init__	cme/protocols/ldap/smbldap.py	/^    def __init__(self, host, port, hostname):$/;"	m	class:LDAPConnect
+__init__	cme/protocols/mssql.py	/^    def __init__(self, args, db, host):$/;"	m	class:mssql
+__init__	cme/protocols/mssql/database.py	/^    def __init__(self, conn):$/;"	m	class:database
+__init__	cme/protocols/mssql/mssqlexec.py	/^    def __init__(self, connection):$/;"	m	class:MSSQLEXEC
+__init__	cme/protocols/rdp.py	/^    def __init__(self, args, db, host):$/;"	m	class:rdp
+__init__	cme/protocols/rdp/database.py	/^    def __init__(self, conn):$/;"	m	class:database
+__init__	cme/protocols/smb.py	/^    def __init__(self, args, db, host):$/;"	m	class:smb
+__init__	cme/protocols/smb/atexec.py	/^    def __init__(self, target, share_name, username, password, domain, doKerberos=False, aesKey=None, kdcHost=None, hashes=None):$/;"	m	class:TSCH_EXEC
+__init__	cme/protocols/smb/database.py	/^    def __init__(self, conn):$/;"	m	class:database
+__init__	cme/protocols/smb/mmcexec.py	/^    def __init__(self, host, share_name, username, password, domain, smbconnection, hashes=None):$/;"	m	class:MMCEXEC
+__init__	cme/protocols/smb/passpol.py	/^    def __init__(self, connection):$/;"	m	class:PassPolDump
+__init__	cme/protocols/smb/remotefile.py	/^    def __init__(self, smbConnection, fileName, share='ADMIN$', access = FILE_READ_DATA | FILE_WRITE_DATA ):$/;"	m	class:RemoteFile
+__init__	cme/protocols/smb/samruser.py	/^    def __init__(self, connection):$/;"	m	class:UserSamrDump
+__init__	cme/protocols/smb/smbexec.py	/^    def __init__(self, host, share_name, smbconnection, protocol, username = '', password = '', domain = '', doKerberos=False, aesKey=None, kdcHost=None, hashes = None, share = None, port=445):$/;"	m	class:SMBEXEC
+__init__	cme/protocols/smb/smbspider.py	/^    def __init__(self, smbconnection, logger):$/;"	m	class:SMBSpider
+__init__	cme/protocols/smb/wmiexec.py	/^    def __init__(self, target, share_name, username, password, domain, smbconnection, doKerberos=False, aesKey=None, kdcHost=None, hashes=None, share=None):$/;"	m	class:WMIEXEC
+__init__	cme/protocols/ssh/database.py	/^    def __init__(self, conn):$/;"	m	class:database
+__init__	cme/protocols/winrm.py	/^    def __init__(self, args, db, host):$/;"	m	class:winrm
+__init__	cme/protocols/winrm/database.py	/^    def __init__(self, conn):$/;"	m	class:database
+__init__	cme/servers/http.py	/^    def __init__(self, module, context, logger, srv_host, port, server_type='https'):$/;"	m	class:CMEServer
+__init__	cme/servers/smb.py	/^    def __init__(self, logger, share_name, share_path='\/tmp\/cme_hosted', listen_address='0.0.0.0', listen_port=445, verbose=False):$/;"	m	class:CMESMBServer
+__new__	cme/modules/ms17-010.py	/^  def __new__(self, buffer=None):$/;"	m	class:SMB_HEADER	file:
+__str__	cme/modules/dfscoerce.py	/^    def __str__(self):$/;"	m	class:DCERPCSessionError	file:
+__str__	cme/modules/mssql_priv.py	/^    def __str__(self):$/;"	m	class:User	file:
+__str__	cme/modules/petitpotam.py	/^    def __str__( self ):$/;"	m	class:DCERPCSessionError	file:
+__str__	cme/modules/shadowcoerce.py	/^    def __str__( self ):$/;"	m	class:DCERPCSessionError	file:
+__str__	cme/protocols/smb/remotefile.py	/^    def __str__(self):$/;"	m	class:RemoteFile	file:
+_access_check	cme/helpers/misc.py	/^    def _access_check(fn, mode):$/;"	f	function:which
+_decorator	cme/connection.py	/^    def _decorator(self, *args, **kwargs):$/;"	f	function:requires_admin
+_decorator	cme/protocols/smb.py	/^    def _decorator(self, *args, **kwargs):$/;"	f	function:requires_smb_server
+_fields_	cme/modules/ms17-010.py	/^  _fields_ = [$/;"	v	class:SMB_HEADER
+_pack_	cme/modules/ms17-010.py	/^  _pack_ = 1$/;"	v	class:SMB_HEADER
+_spider	cme/modules/spider_plus.py	/^    def _spider(self, share, subfolder):$/;"	m	class:SMBSpiderPlus
+_spider	cme/protocols/smb/smbspider.py	/^    def _spider(self, subfolder, depth):$/;"	m	class:SMBSpider
+addShare	cme/servers/smb.py	/^    def addShare(self, share_name, share_path):$/;"	m	class:CMESMBServer
+add_admin_user	cme/protocols/mssql/database.py	/^    def add_admin_user(self, credtype, domain, username, password, host):$/;"	m	class:database
+add_admin_user	cme/protocols/smb/database.py	/^    def add_admin_user(self, credtype, domain, username, password, host, userid=None):$/;"	m	class:database
+add_computer	cme/protocols/mssql/database.py	/^    def add_computer(self, ip, hostname, domain, os, instances):$/;"	m	class:database
+add_computer	cme/protocols/smb/database.py	/^    def add_computer(self, ip, hostname, domain, os, smbv1, signing, dc=None):$/;"	m	class:database
+add_credential	cme/protocols/mssql/database.py	/^    def add_credential(self, credtype, domain, username, password):$/;"	m	class:database
+add_credential	cme/protocols/smb/database.py	/^    def add_credential(self, credtype, domain, username, password, groupid=None, pillaged_from=None):$/;"	m	class:database
+add_group	cme/protocols/smb/database.py	/^    def add_group(self, domain, name):$/;"	m	class:database
+add_lsa_secret	cme/protocols/smb.py	/^        def add_lsa_secret(secret):$/;"	f	function:smb.lsa
+add_ntds_hash	cme/protocols/smb.py	/^        def add_ntds_hash(ntds_hash, host_id):$/;"	f	function:smb.ntds
+add_sam_hash	cme/protocols/smb.py	/^        def add_sam_hash(sam_hash, host_id):$/;"	f	function:smb.sam
+add_share	cme/protocols/smb/database.py	/^    def add_share(self, computerid, userid, name, remark, read, write):$/;"	m	class:database
+add_user	cme/protocols/smb/database.py	/^    def add_user(self, domain, username, groupid=None):$/;"	m	class:database
+add_user_bh	cme/helpers/bloodhound.py	/^def add_user_bh(user, domain, logger, config):$/;"	f
+addr	cme/helpers/powershell.py	/^                                  addr=context.localip,$/;"	v
+admin_count	cme/protocols/ldap.py	/^    def admin_count(self):$/;"	m	class:ldap
+admin_results	cme/modules/hash_spider.py	/^admin_results = []$/;"	v
+align	cme/modules/petitpotam.py	/^    align = 1$/;"	v	class:EFS_EXIM_PIPE
+align	cme/modules/petitpotam.py	/^    align = 1$/;"	v	class:ENCRYPTION_CERTIFICATE_HASH_LIST
+align	cme/modules/petitpotam.py	/^    align = 1$/;"	v	class:ENCRYPTION_CERTIFICATE_LIST
+align	cme/modules/petitpotam.py	/^    align = 1$/;"	v	class:EXIMPORT_CONTEXT_HANDLE
+ansi_escape	cme/logger.py	/^ansi_escape = re.compile(r'\\x1b[^m]*m')$/;"	v
+antiansi_emit	cme/logger.py	/^def antiansi_emit(self, record):$/;"	f
+append_to_log	cme/modules/user_description.py	/^    def append_to_log(self, user, description):$/;"	m	class:CMEModule
+args	cme/cli.py	/^    args = parser.parse_args()$/;"	v
+asreproast	cme/protocols/ldap.py	/^    def asreproast(self):$/;"	m	class:ldap
+base_server	cme/servers/http.py	/^    def base_server(self):$/;"	m	class:CMEServer
+browse_path	cme/modules/mssql_priv.py	/^    def browse_path(self, context, initial_user: User, user: User) -> User:$/;"	m	class:CMEModule
+build_cme	build_collector.py	/^def build_cme():$/;"	f
+build_cmedb	build_collector.py	/^def build_cmedb():$/;"	f
+build_exec_as_from_path	cme/modules/mssql_priv.py	/^    def build_exec_as_from_path(self, target_user):$/;"	m	class:CMEModule
+calculate_doublepulsar_xor_key	cme/modules/ms17-010.py	/^def calculate_doublepulsar_xor_key(s):$/;"	f
+call_cmd_args	cme/connection.py	/^    def call_cmd_args(self):$/;"	m	class:connection
+call_modules	cme/connection.py	/^    def call_modules(self):$/;"	m	class:connection
+called_from_cmd_args	cme/helpers/misc.py	/^def called_from_cmd_args():$/;"	f
+cd	cme/protocols/smb/wmiexec.py	/^    def cd(self, s):$/;"	m	class:WMIEXEC
+check	cme/modules/ms17-010.py	/^def check(ip, port=445):$/;"	f
+check_dbowner_privesc	cme/modules/mssql_priv.py	/^    def check_dbowner_privesc(self, exec_as=''):$/;"	m	class:CMEModule
+check_if_admin	cme/connection.py	/^    def check_if_admin(self):$/;"	m	class:connection
+check_if_admin	cme/protocols/ldap.py	/^    def check_if_admin(self):$/;"	m	class:ldap
+check_if_admin	cme/protocols/mssql.py	/^    def check_if_admin(self):$/;"	m	class:mssql
+check_if_admin	cme/protocols/smb.py	/^    def check_if_admin(self):$/;"	m	class:smb
+check_if_admin	cme/protocols/ssh.py	/^    def check_if_admin(self):$/;"	m	class:ssh
+client_close	cme/protocols/ssh.py	/^    def client_close(self):$/;"	m	class:ssh
+close	cme/protocols/smb/remotefile.py	/^    def close(self):$/;"	m	class:RemoteFile
+command	cme/helpers/powershell.py	/^                                  command=command)$/;"	v
+command	cme/helpers/powershell.py	/^            command = 'powershell.exe -exec bypass -noni -nop -w 1 -C "' + invoke_obfuscation(command) + '"'$/;"	v
+command	cme/helpers/powershell.py	/^        command = 'powershell.exe -noni -nop -w 1 -enc {}'.format(encode_ps_command(command))$/;"	v
+command	cme/helpers/powershell.py	/^        command = amsi_bypass + ps_command$/;"	v
+complete_creds	cme/protocols/mssql/db_navigator.py	/^    def complete_creds(self, text, line, begidx, endidx):$/;"	m	class:navigator
+complete_creds	cme/protocols/smb/db_navigator.py	/^    def complete_creds(self, text, line, begidx, endidx):$/;"	m	class:navigator
+complete_export	cme/cmedb.py	/^    def complete_export(self, text, line, begidx, endidx):$/;"	m	class:DatabaseNavigator
+complete_hosts	cme/protocols/mssql/db_navigator.py	/^    def complete_hosts(self, text, line, begidx, endidx):$/;"	m	class:navigator
+complete_hosts	cme/protocols/smb/db_navigator.py	/^    def complete_hosts(self, text, line, begidx, endidx):$/;"	m	class:navigator
+complete_import	cme/cmedb.py	/^    def complete_import(self, text, line, begidx, endidx):$/;"	m	class:DatabaseNavigator
+computers	cme/protocols/smb.py	/^    def computers(self):$/;"	m	class:smb
+connect	cme/modules/dfscoerce.py	/^    def connect(self, username, password, domain, lmhash, nthash, target):$/;"	m	class:TriggerAuth
+connect	cme/modules/petitpotam.py	/^    def connect(self, username, password, domain, lmhash, nthash, target, pipe, targetIp):$/;"	m	class:CoerceAuth
+connect	cme/modules/shadowcoerce.py	/^    def connect(self, username, password, domain, lmhash, nthash, target, pipe):$/;"	m	class:CoerceAuth
+connect_rdp	cme/protocols/rdp.py	/^    async def connect_rdp(self, url):$/;"	m	class:rdp
+connection	cme/connection.py	/^class connection(object):$/;"	c
+convert	cme/protocols/smb/passpol.py	/^def convert(low, high, lockout=False):$/;"	f
+create_conn_obj	cme/connection.py	/^    def create_conn_obj(self):$/;"	m	class:connection
+create_conn_obj	cme/protocols/ldap.py	/^    def create_conn_obj(self):$/;"	m	class:ldap
+create_conn_obj	cme/protocols/mssql.py	/^    def create_conn_obj(self):$/;"	m	class:mssql
+create_conn_obj	cme/protocols/rdp.py	/^    def create_conn_obj(self):$/;"	m	class:rdp
+create_conn_obj	cme/protocols/smb.py	/^    def create_conn_obj(self):$/;"	m	class:smb
+create_conn_obj	cme/protocols/ssh.py	/^    def create_conn_obj(self):$/;"	m	class:ssh
+create_conn_obj	cme/protocols/winrm.py	/^    def create_conn_obj(self):$/;"	m	class:winrm
+create_db	cme/modules/hash_spider.py	/^def create_db(local_admins, dbconnection, cursor):$/;"	f
+create_log_file	cme/modules/user_description.py	/^    def create_log_file(self, host, time):$/;"	m	class:CMEModule
+create_ps_command	cme/helpers/powershell.py	/^def create_ps_command(ps_command, force_ps32=False, dont_obfs=False, custom_amsi=None):$/;"	f
+create_smbv1_conn	cme/protocols/ldap.py	/^    def create_smbv1_conn(self):$/;"	m	class:ldap
+create_smbv1_conn	cme/protocols/smb.py	/^    def create_smbv1_conn(self):$/;"	m	class:smb
+create_smbv3_conn	cme/protocols/ldap.py	/^    def create_smbv3_conn(self):$/;"	m	class:ldap
+create_smbv3_conn	cme/protocols/smb.py	/^    def create_smbv3_conn(self):$/;"	m	class:smb
+credentials_data	cme/modules/hash_spider.py	/^credentials_data = []$/;"	v
+d2b	cme/protocols/smb/passpol.py	/^def d2b(a):$/;"	f
+database	cme/protocols/ldap/database.py	/^class database:$/;"	c
+database	cme/protocols/mssql/database.py	/^class database:$/;"	c
+database	cme/protocols/rdp/database.py	/^class database:$/;"	c
+database	cme/protocols/smb/database.py	/^class database:$/;"	c
+database	cme/protocols/ssh/database.py	/^class database:$/;"	c
+database	cme/protocols/winrm/database.py	/^class database:$/;"	c
+db_schema	cme/protocols/ldap/database.py	/^    def db_schema(db_conn):$/;"	m	class:database
+db_schema	cme/protocols/mssql/database.py	/^    def db_schema(db_conn):$/;"	m	class:database
+db_schema	cme/protocols/rdp/database.py	/^    def db_schema(db_conn):$/;"	m	class:database
+db_schema	cme/protocols/smb/database.py	/^    def db_schema(db_conn):$/;"	m	class:database
+db_schema	cme/protocols/ssh/database.py	/^    def db_schema(db_conn):$/;"	m	class:database
+db_schema	cme/protocols/winrm/database.py	/^    def db_schema(db_conn):$/;"	m	class:database
+debug	cme/logger.py	/^    def debug(self, msg, *args, **kwargs):$/;"	m	class:CMEAdapter
+decrypt_cpassword	cme/modules/gpp_password.py	/^    def decrypt_cpassword(self, cpassword):$/;"	m	class:CMEModule
+delete	cme/protocols/smb/remotefile.py	/^    def delete(self):$/;"	m	class:RemoteFile
+description	cme/modules/IOXIDResolver.py	/^    description = "Thie module helps you to identify hosts that have additional active interfaces"$/;"	v	class:CMEModule
+description	cme/modules/MachineAccountQuota.py	/^    description = 'Retrieves the MachineAccountQuota domain-level attribute'$/;"	v	class:CMEModule
+description	cme/modules/adcs.py	/^    description = 'Find PKI Enrollment Services in Active Directory and Certificate Templates Names'$/;"	v	class:CMEModule
+description	cme/modules/bh_owned.py	/^    description = "Set pwned computer as owned in Bloodhound"$/;"	v	class:CMEModule
+description	cme/modules/dfscoerce.py	/^    description = "Module to check if the DC is vulnerable to DFSCocerc, credit to @filip_dragovic\/@Wh04m1001 and @topotam"$/;"	v	class:CMEModule
+description	cme/modules/drop_searchConnector-ms.py	/^    description = 'Drop a searchConnector-ms file on each writable share'$/;"	v	class:CMEModule
+description	cme/modules/empire_exec.py	/^    description = "Uses Empire's RESTful API to generate a launcher for the specified listener and executes it"$/;"	v	class:CMEModule
+description	cme/modules/enum_avproducts.py	/^    description = 'Gathers information on all endpoint protection solutions installed on the the remote host(s) via WMI'$/;"	v	class:CMEModule
+description	cme/modules/enum_dns.py	/^    description = 'Uses WMI to dump DNS from an AD DNS Server'$/;"	v	class:CMEModule
+description	cme/modules/example_module.py	/^    description = 'I do something'$/;"	v	class:CMEModule
+description	cme/modules/get_description.py	/^    description = 'Get description of the users. May contained password'$/;"	v	class:CMEModule
+description	cme/modules/get_netconnections.py	/^    description = 'Uses WMI to query network connections.'$/;"	v	class:CMEModule
+description	cme/modules/gpp_autologin.py	/^    description = 'Searches the domain controller for registry.xml to find autologon information and returns the username and password.'$/;"	v	class:CMEModule
+description	cme/modules/gpp_password.py	/^    description = 'Retrieves the plaintext password and other information for accounts pushed through Group Policy Preferences.'$/;"	v	class:CMEModule
+description	cme/modules/handlekatz.py	/^    description = "Get lsass dump using handlekatz64 and parse the result with pypykatz"$/;"	v	class:CMEModule
+description	cme/modules/hash_spider.py	/^    description = "Dump lsass recursively from a given hash using BH to find local admins"$/;"	v	class:CMEModule
+description	cme/modules/laps.py	/^    description = 'Retrieves the LAPS passwords'$/;"	v	class:CMEModule
+description	cme/modules/ldap-checker.py	/^    description = 'Checks whether LDAP signing and binding are required and \/ or enforced'$/;"	v	class:CMEModule
+description	cme/modules/ldap-signing.py	/^    description = 'Check whether LDAP signing is required'$/;"	v	class:CMEModule
+description	cme/modules/lsassy_dump.py	/^    description = "Dump lsass and parse the result remotely with lsassy"$/;"	v	class:CMEModule
+description	cme/modules/met_inject.py	/^    description = "Downloads the Meterpreter stager and injects it into memory"$/;"	v	class:CMEModule
+description	cme/modules/ms17-010.py	/^    description = "MS17-010, \/!\\ not tested oustide home lab"$/;"	v	class:CMEModule
+description	cme/modules/mssql_priv.py	/^    description = "Enumerate and exploit MSSQL privileges"$/;"	v	class:CMEModule
+description	cme/modules/nanodump.py	/^    description = "Get lsass dump using nanodump and parse the result with pypykatz"$/;"	v	class:CMEModule
+description	cme/modules/nopac.py	/^    description = "Check if the DC is vulnerable to CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user"$/;"	v	class:CMEModule
+description	cme/modules/petitpotam.py	/^    description = "Module to check if the DC is vulnerable to PetitPotam, credit to @topotam"$/;"	v	class:CMEModule
+description	cme/modules/procdump.py	/^    description = "Get lsass dump using procdump64 and parse the result with pypykatz"$/;"	v	class:CMEModule
+description	cme/modules/rdp.py	/^    description = 'Enables\/Disables RDP'$/;"	v	class:CMEModule
+description	cme/modules/runasppl.py	/^    description = "Check if the registry value RunAsPPL is set or not"$/;"	v	class:CMEModule
+description	cme/modules/scuffy.py	/^    description = 'Creates and dumps an arbitrary .scf file with the icon property containing a UNC path to the declared SMB server against all writeable shares'$/;"	v	class:CMEModule
+description	cme/modules/shadowcoerce.py	/^    description = "Module to check if the target is vulnerable to ShadowCoerce, credit to @Shutdown and @topotam"$/;"	v	class:CMEModule
+description	cme/modules/slinky.py	/^    description = 'Creates windows shortcuts with the icon attribute containing a UNC path to the specified SMB server in all shares with write permissions'$/;"	v	class:CMEModule
+description	cme/modules/spider_plus.py	/^    description = 'List files on the target server (excluding `DIR` directories and `EXT` extensions) and save them to the `OUTPUT` directory if they are smaller then `SIZE`'$/;"	v	class:CMEModule
+description	cme/modules/spooler.py	/^    description = 'Detect if print spooler is enabled or not'$/;"	v	class:CMEModule
+description	cme/modules/subnets.py	/^    description = 'Retrieves the different Sites and Subnets of an Active Directory'$/;"	v	class:CMEModule
+description	cme/modules/test_connection.py	/^    description = "Pings a host"$/;"	v	class:CMEModule
+description	cme/modules/uac.py	/^    description = "Checks UAC status"$/;"	v	class:CMEModule
+description	cme/modules/user_description.py	/^    description = 'Get user descriptions stored in Active Directory'$/;"	v	class:CMEModule
+description	cme/modules/web_delivery.py	/^    description = 'Kicks off a Metasploit Payload using the exploit\/multi\/script\/web_delivery module'$/;"	v	class:CMEModule
+description	cme/modules/webdav.py	/^    description = 'Checks whether the WebClient service is running on the target'$/;"	v	class:CMEModule
+description	cme/modules/wireless.py	/^    description = "Get key of all wireless interfaces"$/;"	v	class:CMEModule
+description	cme/modules/zerologon.py	/^    description = "Module to check if the DC is vulnerable to Zerologon aka CVE-2020-1472"$/;"	v	class:CMEModule
+dir_list	cme/protocols/smb/smbspider.py	/^    def dir_list(self, files, path):$/;"	m	class:SMBSpider
+disable_xp_cmdshell	cme/protocols/mssql/mssqlexec.py	/^    def disable_xp_cmdshell(self):$/;"	m	class:MSSQLEXEC
+disks	cme/protocols/smb.py	/^    def disks(self):$/;"	m	class:smb
+display_creds	cme/protocols/mssql/db_navigator.py	/^    def display_creds(self, creds):$/;"	m	class:navigator
+display_creds	cme/protocols/smb/db_navigator.py	/^    def display_creds(self, creds):$/;"	m	class:navigator
+display_groups	cme/protocols/smb/db_navigator.py	/^    def display_groups(self, groups):$/;"	m	class:navigator
+display_hosts	cme/protocols/mssql/db_navigator.py	/^    def display_hosts(self, hosts):$/;"	m	class:navigator
+display_hosts	cme/protocols/smb/db_navigator.py	/^    def display_hosts(self, hosts):$/;"	m	class:navigator
+display_shares	cme/protocols/smb/db_navigator.py	/^    def display_shares(self, shares):$/;"	m	class:navigator
+doStuff	cme/protocols/smb/atexec.py	/^    def doStuff(self, command, fileless=False):$/;"	f
+do_GET	cme/servers/http.py	/^    def do_GET(self):$/;"	m	class:RequestHandler
+do_POST	cme/servers/http.py	/^    def do_POST(self):$/;"	m	class:RequestHandler
+do_back	cme/cmedb.py	/^    def do_back(self, line):$/;"	m	class:DatabaseNavigator
+do_creds	cme/protocols/mssql/db_navigator.py	/^    def do_creds(self, line):$/;"	m	class:navigator
+do_creds	cme/protocols/smb/db_navigator.py	/^    def do_creds(self, line):$/;"	m	class:navigator
+do_dbowner_privesc	cme/modules/mssql_priv.py	/^    def do_dbowner_privesc(self, database, exec_as=''):$/;"	m	class:CMEModule
+do_exit	cme/cmedb.py	/^    def do_exit(self, line):$/;"	m	class:CMEDBMenu
+do_exit	cme/cmedb.py	/^    def do_exit(self, line):$/;"	m	class:DatabaseNavigator
+do_export	cme/cmedb.py	/^    def do_export(self, line):$/;"	m	class:DatabaseNavigator
+do_groups	cme/protocols/smb/db_navigator.py	/^    def do_groups(self, line):$/;"	m	class:navigator
+do_hosts	cme/protocols/mssql/db_navigator.py	/^    def do_hosts(self, line):$/;"	m	class:navigator
+do_hosts	cme/protocols/smb/db_navigator.py	/^    def do_hosts(self, line):$/;"	m	class:navigator
+do_impersonation_privesc	cme/modules/mssql_priv.py	/^    def do_impersonation_privesc(self, username, exec_as=''):$/;"	m	class:CMEModule
+do_import	cme/cmedb.py	/^    def do_import(self, line):$/;"	m	class:DatabaseNavigator
+do_proto	cme/cmedb.py	/^    def do_proto(self, proto):$/;"	m	class:CMEDBMenu
+do_shares	cme/protocols/smb/db_navigator.py	/^    def do_shares(self, line):$/;"	m	class:navigator
+do_workspace	cme/cmedb.py	/^    def do_workspace(self, line):$/;"	m	class:CMEDBMenu
+domainfromdnshostname	cme/protocols/smb.py	/^    def domainfromdnshostname(self, dns):$/;"	m	class:smb
+domainfromdsn	cme/protocols/smb.py	/^    def domainfromdsn(self, dsn):$/;"	m	class:smb
+dump	cme/protocols/smb/passpol.py	/^    def dump(self):$/;"	m	class:PassPolDump
+dump	cme/protocols/smb/samruser.py	/^    def dump(self):$/;"	m	class:UserSamrDump
+dump_folder_metadata	cme/modules/spider_plus.py	/^    def dump_folder_metadata(self, results):$/;"	m	class:SMBSpiderPlus
+enable_remoteops	cme/protocols/smb.py	/^    def enable_remoteops(self):$/;"	m	class:smb
+enable_xp_cmdshell	cme/protocols/mssql/mssqlexec.py	/^    def enable_xp_cmdshell(self):$/;"	m	class:MSSQLEXEC
+encode_ps_command	cme/helpers/powershell.py	/^def encode_ps_command(command):$/;"	f
+enum_host_info	cme/connection.py	/^    def enum_host_info(self):$/;"	m	class:connection
+enum_host_info	cme/protocols/ldap.py	/^    def enum_host_info(self):$/;"	m	class:ldap
+enum_host_info	cme/protocols/mssql.py	/^    def enum_host_info(self):$/;"	m	class:mssql
+enum_host_info	cme/protocols/smb.py	/^    def enum_host_info(self):$/;"	m	class:smb
+enum_host_info	cme/protocols/ssh.py	/^    def enum_host_info(self):$/;"	m	class:ssh
+enum_host_info	cme/protocols/winrm.py	/^    def enum_host_info(self):$/;"	m	class:winrm
+error	cme/logger.py	/^    def error(self, msg, color='red', *args, **kwargs):$/;"	m	class:CMEAdapter
+execute	cme/protocols/mssql.py	/^    def execute(self, payload=None, get_output=False, methods=None):$/;"	m	class:mssql
+execute	cme/protocols/mssql/mssqlexec.py	/^    def execute(self, command, output=False):$/;"	m	class:MSSQLEXEC
+execute	cme/protocols/smb.py	/^    def execute(self, payload=None, get_output=False, methods=None):$/;"	m	class:smb
+execute	cme/protocols/smb/atexec.py	/^    def execute(self, command, output=False):$/;"	m	class:TSCH_EXEC
+execute	cme/protocols/smb/mmcexec.py	/^    def execute(self, command, output=False):$/;"	m	class:MMCEXEC
+execute	cme/protocols/smb/smbexec.py	/^    def execute(self, command, output=False):$/;"	m	class:SMBEXEC
+execute	cme/protocols/smb/wmiexec.py	/^    def execute(self, command, output=False):$/;"	m	class:WMIEXEC
+execute	cme/protocols/ssh.py	/^    def execute(self, payload=None, get_output=False):$/;"	m	class:ssh
+execute	cme/protocols/winrm.py	/^    def execute(self, payload=None, get_output=False):$/;"	m	class:winrm
+execute_fileless	cme/protocols/smb/smbexec.py	/^    def execute_fileless(self, data):$/;"	m	class:SMBEXEC
+execute_fileless	cme/protocols/smb/wmiexec.py	/^    def execute_fileless(self, data):$/;"	m	class:WMIEXEC
+execute_handler	cme/protocols/smb/atexec.py	/^    def execute_handler(self, data):$/;"	m	class:TSCH_EXEC
+execute_handler	cme/protocols/smb/wmiexec.py	/^    def execute_handler(self, data):$/;"	m	class:WMIEXEC
+execute_remote	cme/protocols/smb/mmcexec.py	/^    def execute_remote(self, data):$/;"	m	class:MMCEXEC
+execute_remote	cme/protocols/smb/smbexec.py	/^    def execute_remote(self, data):$/;"	m	class:SMBEXEC
+execute_remote	cme/protocols/smb/wmiexec.py	/^    def execute_remote(self, data):$/;"	m	class:WMIEXEC
+exit	cme/protocols/smb/mmcexec.py	/^    def exit(self):$/;"	m	class:MMCEXEC
+fail	cme/modules/zerologon.py	/^def fail(msg):$/;"	f
+fail_group	cme/cli.py	/^    fail_group = std_parser.add_mutually_exclusive_group()$/;"	v
+fetchList	cme/protocols/smb/passpol.py	/^    def fetchList(self, rpctransport):$/;"	m	class:PassPolDump
+fetchList	cme/protocols/smb/samruser.py	/^    def fetchList(self, rpctransport):$/;"	m	class:UserSamrDump
+filter	cme/protocols/winrm.py	/^    def filter(self, record):$/;"	m	class:SuppressFilter
+filter_answer	cme/modules/get_description.py	/^    def filter_answer(self, context, answers):$/;"	m	class:CMEModule
+find_dbowner_priv	cme/modules/mssql_priv.py	/^    def find_dbowner_priv(self, databases, exec_as='') -> list:$/;"	m	class:CMEModule
+find_trusted_db	cme/modules/mssql_priv.py	/^    def find_trusted_db(self, exec_as='') -> list:$/;"	m	class:CMEModule
+finish	cme/protocols/smb/smbexec.py	/^    def finish(self):$/;"	m	class:SMBEXEC
+first_run_setup	cme/first_run.py	/^def first_run_setup(logger):$/;"	f
+formatter_class	cme/cli.py	/^    formatter_class=RawTextHelpFormatter)$/;"	v
+found_users	cme/modules/hash_spider.py	/^found_users = []$/;"	v
+gen_cli_args	cme/cli.py	/^def gen_cli_args():$/;"	f
+gen_ps_iex_cradle	cme/helpers/powershell.py	/^def gen_ps_iex_cradle(context, scripts, command=str(), post_back=True):$/;"	f
+gen_ps_inject	cme/helpers/powershell.py	/^def gen_ps_inject(command, context=None, procname='explorer.exe', inject_once=False):$/;"	f
+gen_random_string	cme/helpers/misc.py	/^def gen_random_string(length=10):$/;"	f
+gen_relay_list	cme/protocols/smb.py	/^    def gen_relay_list(self):$/;"	m	class:smb
+gen_xml	cme/protocols/smb/atexec.py	/^    def gen_xml(self, command, tmpFileName, fileless=False):$/;"	m	class:TSCH_EXEC
+generate_smb_proto_payload	cme/modules/ms17-010.py	/^def generate_smb_proto_payload(*protos):$/;"	f
+getInterface	cme/protocols/smb/mmcexec.py	/^    def getInterface(self, interface, resp):$/;"	m	class:MMCEXEC
+getMessage	cme/logger.py	/^    def getMessage(self):$/;"	m	class:CMEAdapter
+getTGT_asroast	cme/protocols/ldap/kerberos.py	/^    def getTGT_asroast(self, userName, requestPAC=True):$/;"	m	class:KerberosAttacks
+getTGT_kerberoasting	cme/protocols/ldap/kerberos.py	/^    def getTGT_kerberoasting(self):$/;"	m	class:KerberosAttacks
+getUnixTime	cme/protocols/ldap.py	/^    def getUnixTime(self, t):$/;"	m	class:ldap
+get_admin_relations	cme/protocols/mssql/database.py	/^    def get_admin_relations(self, userID=None, hostID=None):$/;"	m	class:database
+get_admin_relations	cme/protocols/smb/database.py	/^    def get_admin_relations(self, userID=None, hostID=None):$/;"	m	class:database
+get_computers	cme/protocols/mssql/database.py	/^    def get_computers(self, filterTerm=None):$/;"	m	class:database
+get_computers	cme/protocols/smb/database.py	/^    def get_computers(self, filterTerm=None, domain=None):$/;"	m	class:database
+get_credentials	cme/protocols/mssql/database.py	/^    def get_credentials(self, filterTerm=None, credtype=None):$/;"	m	class:database
+get_credentials	cme/protocols/smb/database.py	/^    def get_credentials(self, filterTerm=None, credtype=None):$/;"	m	class:database
+get_current_username	cme/modules/mssql_priv.py	/^    def get_current_username(self) -> str:$/;"	m	class:CMEModule
+get_databases	cme/modules/mssql_priv.py	/^    def get_databases(self, exec_as='') -> list:$/;"	m	class:CMEModule
+get_dc_ips	cme/protocols/smb.py	/^    def get_dc_ips(self):$/;"	m	class:smb
+get_desktop_uagent	cme/helpers/http.py	/^def get_desktop_uagent(uagent=None):$/;"	f
+get_domain_controllers	cme/protocols/smb/database.py	/^    def get_domain_controllers(self, domain=None):$/;"	m	class:database
+get_error_string	cme/protocols/smb.py	/^def get_error_string(exception):$/;"	f
+get_file	cme/protocols/smb.py	/^    def get_file(self):$/;"	m	class:smb
+get_group_relations	cme/protocols/smb/database.py	/^    def get_group_relations(self, userID=None, groupID=None):$/;"	m	class:database
+get_groups	cme/protocols/smb/database.py	/^    def get_groups(self, filterTerm=None, groupName=None, groupDomain=None):$/;"	m	class:database
+get_impersonate_users	cme/modules/mssql_priv.py	/^    def get_impersonate_users(self, exec_as='') -> list:$/;"	m	class:CMEModule
+get_lastm_time	cme/protocols/smb/smbspider.py	/^    def get_lastm_time(self, result_obj):$/;"	m	class:SMBSpider
+get_list_from_option	cme/modules/spider_plus.py	/^get_list_from_option = lambda opt: list(map(lambda o: o.lower(), filter(bool, opt.split(','))))$/;"	v
+get_modules	cme/loaders/module_loader.py	/^    def get_modules(self):$/;"	m	class:module_loader
+get_os_arch	cme/protocols/ldap.py	/^    def get_os_arch(self):$/;"	m	class:ldap
+get_os_arch	cme/protocols/smb.py	/^    def get_os_arch(self):$/;"	m	class:smb
+get_output_fileless	cme/protocols/smb/mmcexec.py	/^    def get_output_fileless(self):$/;"	m	class:MMCEXEC
+get_output_fileless	cme/protocols/smb/smbexec.py	/^    def get_output_fileless(self):$/;"	m	class:SMBEXEC
+get_output_fileless	cme/protocols/smb/wmiexec.py	/^    def get_output_fileless(self):$/;"	m	class:WMIEXEC
+get_output_remote	cme/protocols/smb/smbexec.py	/^    def get_output_remote(self):$/;"	m	class:SMBEXEC
+get_output_remote	cme/protocols/smb/wmiexec.py	/^    def get_output_remote(self):$/;"	m	class:WMIEXEC
+get_protocols	cme/loaders/protocol_loader.py	/^    def get_protocols(self):$/;"	m	class:protocol_loader
+get_ps_script	cme/helpers/powershell.py	/^def get_ps_script(path):$/;"	f
+get_remote_file	cme/modules/spider_plus.py	/^    def get_remote_file(self, share, path):$/;"	m	class:SMBSpiderPlus
+get_script	cme/helpers/bash.py	/^def get_script(path):$/;"	f
+get_shares	cme/protocols/smb/database.py	/^    def get_shares(self, filterTerm = None):$/;"	m	class:database
+get_shares_by_access	cme/protocols/smb/database.py	/^    def get_shares_by_access(self, permissions, shareID=None):$/;"	m	class:database
+get_user	cme/protocols/smb/database.py	/^    def get_user(self, domain, username):$/;"	m	class:database
+get_users	cme/protocols/smb/database.py	/^    def get_users(self, filterTerm=None):$/;"	m	class:database
+get_users_with_share_access	cme/protocols/smb/database.py	/^    def get_users_with_share_access(self, computerID, share_name, permissions):$/;"	m	class:database
+gethost_addrinfo	cme/connection.py	/^def gethost_addrinfo(hostname):$/;"	f
+global_failed_logins	cme/connection.py	/^global_failed_logins = 0$/;"	v
+groups	cme/protocols/ldap.py	/^    def groups(self):$/;"	m	class:ldap
+groups	cme/protocols/smb.py	/^    def groups(self):$/;"	m	class:smb
+handle_nessus_file	cme/parsers/nessus.py	/^    def handle_nessus_file(path, item):$/;"	f	function:parse_nessus_file
+hash_login	cme/connection.py	/^    def hash_login(self, domain, username, ntlm_hash):$/;"	m	class:connection
+hash_login	cme/protocols/ldap.py	/^    def hash_login(self, domain, username, ntlm_hash):$/;"	m	class:ldap
+hash_login	cme/protocols/mssql.py	/^    def hash_login(self, domain, username, ntlm_hash):$/;"	m	class:mssql
+hash_login	cme/protocols/rdp.py	/^    def hash_login(self, domain, username, ntlm_hash):$/;"	m	class:rdp
+hash_login	cme/protocols/smb.py	/^    def hash_login(self, domain, username, ntlm_hash):$/;"	m	class:smb
+hash_login	cme/protocols/winrm.py	/^    def hash_login(self, domain, username, ntlm_hash):$/;"	m	class:winrm
+highlight	cme/helpers/logger.py	/^def highlight(text, color='yellow'):$/;"	f
+highlight	cme/logger.py	/^    def highlight(self, msg, *args, **kwargs):$/;"	m	class:CMEAdapter
+highlight	cme/modules/user_description.py	/^    def highlight(self, description):$/;"	m	class:CMEModule
+humaclock	cme/modules/spider_plus.py	/^def humaclock(time):$/;"	f
+humansize	cme/modules/spider_plus.py	/^def humansize(nbytes):$/;"	f
+identify_target_file	cme/helpers/misc.py	/^def identify_target_file(target_file):$/;"	f
+inc_failed_login	cme/connection.py	/^    def inc_failed_login(self, username):$/;"	m	class:connection
+info	cme/logger.py	/^    def info(self, msg, *args, **kwargs):$/;"	m	class:CMEAdapter
+init_module	cme/loaders/module_loader.py	/^    def init_module(self, module_path):$/;"	m	class:module_loader
+initial_run	cme/modules/hash_spider.py	/^def initial_run(connection, cursor):$/;"	f
+invoke_obfuscation	cme/helpers/powershell.py	/^def invoke_obfuscation(scriptString):$/;"	f
+is_admin	cme/modules/mssql_priv.py	/^    def is_admin(self, exec_as='') -> bool:$/;"	m	class:CMEModule
+is_admin_user	cme/modules/mssql_priv.py	/^    def is_admin_user(self, username) -> bool:$/;"	m	class:CMEModule
+is_computer_valid	cme/protocols/mssql/database.py	/^    def is_computer_valid(self, hostID):$/;"	m	class:database
+is_computer_valid	cme/protocols/smb/database.py	/^    def is_computer_valid(self, hostID):$/;"	m	class:database
+is_credential_local	cme/protocols/smb/database.py	/^    def is_credential_local(self, credentialID):$/;"	m	class:database
+is_credential_valid	cme/protocols/mssql/database.py	/^    def is_credential_valid(self, credentialID):$/;"	m	class:database
+is_credential_valid	cme/protocols/smb/database.py	/^    def is_credential_valid(self, credentialID):$/;"	m	class:database
+is_dbowner	cme/modules/mssql_priv.py	/^    def is_dbowner(self, database, exec_as='') -> bool:$/;"	m	class:CMEModule
+is_group_valid	cme/protocols/smb/database.py	/^    def is_group_valid(self, groupID):$/;"	m	class:database
+is_powershell_installed	cme/helpers/powershell.py	/^def is_powershell_installed():$/;"	f
+is_share_valid	cme/protocols/smb/database.py	/^    def is_share_valid(self, shareID):$/;"	m	class:database
+is_user_valid	cme/protocols/smb/database.py	/^    def is_user_valid(self, userID):$/;"	m	class:database
+kerberoasting	cme/protocols/ldap.py	/^    def kerberoasting(self):$/;"	m	class:ldap
+kerberos_login	cme/connection.py	/^    def kerberos_login(self):$/;"	m	class:connection
+kerberos_login	cme/protocols/ldap.py	/^    def kerberos_login(self, domain, aesKey, kdcHost):$/;"	m	class:ldap
+kerberos_login	cme/protocols/smb.py	/^    def kerberos_login(self, domain, aesKey, kdcHost):$/;"	m	class:smb
+laps_search	cme/protocols/smb.py	/^    def laps_search(self, username, password, ntlm_hash, domain):$/;"	m	class:smb
+laps_search	cme/protocols/winrm.py	/^    def laps_search(self, username, password, ntlm_hash, domain):$/;"	m	class:winrm
+ldap	cme/protocols/ldap.py	/^class ldap(connection):$/;"	c
+ldap_error_status	cme/protocols/ldap.py	/^ldap_error_status = {$/;"	v
+ldap_error_status	cme/protocols/ldap/smbldap.py	/^ldap_error_status = {$/;"	v
+list_path	cme/modules/spider_plus.py	/^    def list_path(self, share, subfolder):$/;"	m	class:SMBSpiderPlus
+load_module	cme/loaders/module_loader.py	/^    def load_module(self, module_path):$/;"	m	class:module_loader
+load_protocol	cme/loaders/protocol_loader.py	/^    def load_protocol(self, protocol_path):$/;"	m	class:protocol_loader
+local_groups	cme/protocols/smb.py	/^    def local_groups(self):$/;"	m	class:smb
+logMessage	cme/logger.py	/^    def logMessage(self,message):$/;"	m	class:CMEAdapter
+log_message	cme/servers/http.py	/^    def log_message(self, format, *args):$/;"	m	class:RequestHandler
+loggedon_users	cme/protocols/smb.py	/^    def loggedon_users(self):$/;"	m	class:smb
+logger	cme/crackmapexec.py	/^logger = CMEAdapter()$/;"	v
+logger	cme/helpers/powershell.py	/^logger = CMEAdapter()$/;"	v
+login	cme/connection.py	/^    def login(self):$/;"	m	class:connection
+lsa	cme/protocols/smb.py	/^    def lsa(self):$/;"	m	class:smb
+lsa	cme/protocols/winrm.py	/^    def lsa(self):$/;"	m	class:winrm
+main	cme/cmedb.py	/^def main():$/;"	f
+main	cme/crackmapexec.py	/^def main():$/;"	f
+make_dirs	cme/modules/spider_plus.py	/^def make_dirs(path):$/;"	f
+message	cme/logger.py	/^    message = ''$/;"	v	class:CMEAdapter
+mgroup	cme/cli.py	/^    mgroup = module_parser.add_mutually_exclusive_group()$/;"	v
+module_is_sane	cme/loaders/module_loader.py	/^    def module_is_sane(self, module, module_path):$/;"	m	class:module_loader
+module_loader	cme/loaders/module_loader.py	/^class module_loader:$/;"	c
+module_parser	cme/cli.py	/^    module_parser = argparse.ArgumentParser(add_help=False)$/;"	v
+monitor_threadpool	cme/crackmapexec.py	/^async def monitor_threadpool(pool, targets):$/;"	f
+mssql	cme/protocols/mssql.py	/^class mssql(connection):$/;"	c
+mssql_query	cme/protocols/mssql.py	/^    def mssql_query(self):$/;"	m	class:mssql
+multiple_hosts	cme/modules/IOXIDResolver.py	/^    multiple_hosts = False$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/MachineAccountQuota.py	/^    multiple_hosts = False$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/adcs.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/bh_owned.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/dfscoerce.py	/^    multiple_hosts = True $/;"	v	class:CMEModule
+multiple_hosts	cme/modules/drop_searchConnector-ms.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/empire_exec.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/enum_avproducts.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/enum_dns.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/example_module.py	/^    multiple_hosts = True #Does it make sense to run this module on multiple hosts at a time?$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/get_description.py	/^    multiple_hosts = True #Does it make sense to run this module on multiple hosts at a time?$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/get_netconnections.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/gpp_autologin.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/gpp_password.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/handlekatz.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/hash_spider.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/laps.py	/^    multiple_hosts = False$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/ldap-checker.py	/^    multiple_hosts = True $/;"	v	class:CMEModule
+multiple_hosts	cme/modules/ldap-signing.py	/^    multiple_hosts = True $/;"	v	class:CMEModule
+multiple_hosts	cme/modules/lsassy_dump.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/met_inject.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/ms17-010.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/mssql_priv.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/nanodump.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/nopac.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/petitpotam.py	/^    multiple_hosts = False$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/procdump.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/rdp.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/runasppl.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/scuffy.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/shadowcoerce.py	/^    multiple_hosts = True $/;"	v	class:CMEModule
+multiple_hosts	cme/modules/slinky.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/spider_plus.py	/^    multiple_hosts = True # Does it make sense to run this module on multiple hosts at a time?$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/spooler.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/subnets.py	/^    multiple_hosts = False$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/test_connection.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/uac.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/user_description.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/wdigest.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/web_delivery.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/webdav.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/wireless.py	/^    multiple_hosts = True$/;"	v	class:CMEModule
+multiple_hosts	cme/modules/zerologon.py	/^    multiple_hosts = False$/;"	v	class:CMEModule
+name	cme/modules/IOXIDResolver.py	/^    name = 'ioxidresolver'$/;"	v	class:CMEModule
+name	cme/modules/MachineAccountQuota.py	/^    name = 'MAQ'$/;"	v	class:CMEModule
+name	cme/modules/adcs.py	/^    name = 'adcs'$/;"	v	class:CMEModule
+name	cme/modules/bh_owned.py	/^    name = 'bh_owned'$/;"	v	class:CMEModule
+name	cme/modules/dfscoerce.py	/^    name = 'dfscoerce'$/;"	v	class:CMEModule
+name	cme/modules/drop_searchConnector-ms.py	/^    name = 'drop-sc'$/;"	v	class:CMEModule
+name	cme/modules/empire_exec.py	/^    name='empire_exec'$/;"	v	class:CMEModule
+name	cme/modules/enum_avproducts.py	/^    name = 'enum_avproducts'$/;"	v	class:CMEModule
+name	cme/modules/enum_dns.py	/^    name = 'enum_dns'$/;"	v	class:CMEModule
+name	cme/modules/example_module.py	/^    name = 'example module'$/;"	v	class:CMEModule
+name	cme/modules/get_description.py	/^    name = 'get-desc-users'$/;"	v	class:CMEModule
+name	cme/modules/get_netconnections.py	/^    name = 'get_netconnections'$/;"	v	class:CMEModule
+name	cme/modules/gpp_autologin.py	/^    name = 'gpp_autologin'$/;"	v	class:CMEModule
+name	cme/modules/gpp_password.py	/^    name = 'gpp_password'$/;"	v	class:CMEModule
+name	cme/modules/handlekatz.py	/^    name = 'handlekatz'$/;"	v	class:CMEModule
+name	cme/modules/hash_spider.py	/^    name = 'hash_spider'$/;"	v	class:CMEModule
+name	cme/modules/laps.py	/^    name = 'laps'$/;"	v	class:CMEModule
+name	cme/modules/ldap-checker.py	/^    name = 'ldap-checker'$/;"	v	class:CMEModule
+name	cme/modules/ldap-signing.py	/^    name = 'ldap-signing'$/;"	v	class:CMEModule
+name	cme/modules/lsassy_dump.py	/^    name = 'lsassy'$/;"	v	class:CMEModule
+name	cme/modules/met_inject.py	/^    name = 'met_inject'$/;"	v	class:CMEModule
+name	cme/modules/ms17-010.py	/^    name = 'ms17-010'$/;"	v	class:CMEModule
+name	cme/modules/mssql_priv.py	/^    name = 'mssql_priv'$/;"	v	class:CMEModule
+name	cme/modules/nanodump.py	/^    name = 'nanodump'$/;"	v	class:CMEModule
+name	cme/modules/nopac.py	/^    name = 'nopac'$/;"	v	class:CMEModule
+name	cme/modules/petitpotam.py	/^    name = 'petitpotam'$/;"	v	class:CMEModule
+name	cme/modules/procdump.py	/^    name = 'procdump'$/;"	v	class:CMEModule
+name	cme/modules/rdp.py	/^    name = 'rdp'$/;"	v	class:CMEModule
+name	cme/modules/runasppl.py	/^    name = 'runasppl'$/;"	v	class:CMEModule
+name	cme/modules/scuffy.py	/^    name = 'scuffy'$/;"	v	class:CMEModule
+name	cme/modules/shadowcoerce.py	/^    name = 'shadowcoerce'$/;"	v	class:CMEModule
+name	cme/modules/slinky.py	/^    name = 'slinky'$/;"	v	class:CMEModule
+name	cme/modules/spider_plus.py	/^    name = 'spider_plus'$/;"	v	class:CMEModule
+name	cme/modules/spooler.py	/^    name = 'spooler'$/;"	v	class:CMEModule
+name	cme/modules/subnets.py	/^    name = 'subnets'$/;"	v	class:CMEModule
+name	cme/modules/test_connection.py	/^    name = 'test_connection'$/;"	v	class:CMEModule
+name	cme/modules/uac.py	/^    name = 'uac'$/;"	v	class:CMEModule
+name	cme/modules/user_description.py	/^    name = 'user-desc'$/;"	v	class:CMEModule
+name	cme/modules/wdigest.py	/^    name = 'wdigest'$/;"	v	class:CMEModule
+name	cme/modules/web_delivery.py	/^    name = 'web_delivery'$/;"	v	class:CMEModule
+name	cme/modules/webdav.py	/^    name = 'webdav'$/;"	v	class:CMEModule
+name	cme/modules/wireless.py	/^    name = 'wireless'$/;"	v	class:CMEModule
+name	cme/modules/zerologon.py	/^    name = 'zerologon'$/;"	v	class:CMEModule
+navigator	cme/protocols/ldap/db_navigator.py	/^class navigator(DatabaseNavigator):$/;"	c
+navigator	cme/protocols/mssql/db_navigator.py	/^class navigator(DatabaseNavigator):$/;"	c
+navigator	cme/protocols/rdp/db_navigator.py	/^class navigator(DatabaseNavigator):$/;"	c
+navigator	cme/protocols/smb/db_navigator.py	/^class navigator(DatabaseNavigator):$/;"	c
+navigator	cme/protocols/ssh/db_navigator.py	/^class navigator(DatabaseNavigator):$/;"	c
+navigator	cme/protocols/winrm/db_navigator.py	/^class navigator(DatabaseNavigator):$/;"	c
+negotiate_proto_request	cme/modules/ms17-010.py	/^def negotiate_proto_request():$/;"	f
+neo4j_conn	cme/modules/hash_spider.py	/^def neo4j_conn(context, connection, driver):$/;"	f
+neo4j_local_admins	cme/modules/hash_spider.py	/^def neo4j_local_admins(context, driver):$/;"	f
+ntds	cme/protocols/smb.py	/^    def ntds(self):$/;"	m	class:smb
+obfs_attempts	cme/helpers/powershell.py	/^        obfs_attempts = 0$/;"	v
+obfs_ps_script	cme/helpers/powershell.py	/^def obfs_ps_script(path_to_script):$/;"	f
+obfuscate_ps_scripts	cme/helpers/powershell.py	/^obfuscate_ps_scripts = False$/;"	v
+on_admin_login	cme/modules/bh_owned.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/empire_exec.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/enum_avproducts.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/enum_dns.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/example_module.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/get_netconnections.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/handlekatz.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/hash_spider.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/lsassy_dump.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/met_inject.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/nanodump.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/procdump.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/rdp.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/runasppl.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/test_connection.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/uac.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/wdigest.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/web_delivery.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_admin_login	cme/modules/wireless.py	/^    def on_admin_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/IOXIDResolver.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/MachineAccountQuota.py	/^    def on_login(self, context, connection):     $/;"	m	class:CMEModule
+on_login	cme/modules/adcs.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/dfscoerce.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/drop_searchConnector-ms.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/example_module.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/get_description.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/gpp_autologin.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/gpp_password.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/laps.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/ldap-checker.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/ldap-signing.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/ms17-010.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/mssql_priv.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/nopac.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/petitpotam.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/scuffy.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/shadowcoerce.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/slinky.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/spider_plus.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/spooler.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/subnets.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/user_description.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/webdav.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_login	cme/modules/zerologon.py	/^    def on_login(self, context, connection):$/;"	m	class:CMEModule
+on_request	cme/modules/example_module.py	/^    def on_request(self, context, request):$/;"	m	class:CMEModule
+on_response	cme/modules/example_module.py	/^    def on_response(self, context, response):$/;"	m	class:CMEModule
+on_shutdown	cme/modules/example_module.py	/^    def on_shutdown(self, context, connection):$/;"	m	class:CMEModule
+open	cme/protocols/smb/remotefile.py	/^    def open(self):$/;"	m	class:RemoteFile
+open_proto_db	cme/cmedb.py	/^    def open_proto_db(self, db_path):$/;"	m	class:CMEDBMenu
+opnum	cme/modules/dfscoerce.py	/^    opnum = 12$/;"	v	class:NetrDfsAddRoot
+opnum	cme/modules/dfscoerce.py	/^    opnum = 13$/;"	v	class:NetrDfsRemoveStdRoot
+opnum	cme/modules/petitpotam.py	/^    opnum = 0$/;"	v	class:EfsRpcOpenFileRaw
+opnum	cme/modules/petitpotam.py	/^    opnum = 4$/;"	v	class:EfsRpcEncryptFileSrv
+opnum	cme/modules/shadowcoerce.py	/^    opnum = 8$/;"	v	class:IsPathSupported
+opnum	cme/modules/shadowcoerce.py	/^    opnum = 9$/;"	v	class:IsPathShadowCopied
+opsec_safe	cme/modules/IOXIDResolver.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/MachineAccountQuota.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/adcs.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/bh_owned.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/dfscoerce.py	/^    opsec_safe = True $/;"	v	class:CMEModule
+opsec_safe	cme/modules/drop_searchConnector-ms.py	/^    opsec_safe= False$/;"	v	class:CMEModule
+opsec_safe	cme/modules/empire_exec.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/enum_avproducts.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/enum_dns.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/example_module.py	/^    opsec_safe= True #Does the module touch disk?$/;"	v	class:CMEModule
+opsec_safe	cme/modules/get_description.py	/^    opsec_safe= True #Does the module touch disk?$/;"	v	class:CMEModule
+opsec_safe	cme/modules/get_netconnections.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/gpp_autologin.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/gpp_password.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/handlekatz.py	/^    opsec_safe = True # not really$/;"	v	class:CMEModule
+opsec_safe	cme/modules/hash_spider.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/laps.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/ldap-checker.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/ldap-signing.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/lsassy_dump.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/met_inject.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/ms17-010.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/mssql_priv.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/nanodump.py	/^    opsec_safe = True # not really$/;"	v	class:CMEModule
+opsec_safe	cme/modules/nopac.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/petitpotam.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/procdump.py	/^    opsec_safe = True # not really$/;"	v	class:CMEModule
+opsec_safe	cme/modules/rdp.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/runasppl.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/scuffy.py	/^    opsec_safe= False$/;"	v	class:CMEModule
+opsec_safe	cme/modules/shadowcoerce.py	/^    opsec_safe = True $/;"	v	class:CMEModule
+opsec_safe	cme/modules/slinky.py	/^    opsec_safe= False$/;"	v	class:CMEModule
+opsec_safe	cme/modules/spider_plus.py	/^    opsec_safe= True # Does the module touch disk?$/;"	v	class:CMEModule
+opsec_safe	cme/modules/spooler.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/subnets.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/test_connection.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/uac.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/user_description.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/wdigest.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/web_delivery.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/webdav.py	/^    opsec_safe= True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/wireless.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+opsec_safe	cme/modules/zerologon.py	/^    opsec_safe = True$/;"	v	class:CMEModule
+options	cme/modules/IOXIDResolver.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/MachineAccountQuota.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/adcs.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/bh_owned.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/dfscoerce.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/drop_searchConnector-ms.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/empire_exec.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/enum_avproducts.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/enum_dns.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/example_module.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/get_description.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/get_netconnections.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/gpp_autologin.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/gpp_password.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/handlekatz.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/hash_spider.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/laps.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/ldap-checker.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/ldap-signing.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/lsassy_dump.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/met_inject.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/ms17-010.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/mssql_priv.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/nanodump.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/nopac.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/petitpotam.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/procdump.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/rdp.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/runasppl.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/scuffy.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/shadowcoerce.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/slinky.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/spider_plus.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/spooler.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/subnets.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/test_connection.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/uac.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/user_description.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/wdigest.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/web_delivery.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/webdav.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/wireless.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+options	cme/modules/zerologon.py	/^    def options(self, context, module_options):$/;"	m	class:CMEModule
+outputTGS	cme/protocols/ldap/kerberos.py	/^    def outputTGS(self, tgs, oldSessionKey, sessionKey, username, spn, fd=None):$/;"	m	class:KerberosAttacks
+output_callback	cme/protocols/smb/atexec.py	/^    def output_callback(self, data):$/;"	m	class:TSCH_EXEC
+output_callback	cme/protocols/smb/mmcexec.py	/^    def output_callback(self, data):$/;"	m	class:MMCEXEC
+output_callback	cme/protocols/smb/smbexec.py	/^    def output_callback(self, data):$/;"	m	class:SMBEXEC
+output_callback	cme/protocols/smb/wmiexec.py	/^    def output_callback(self, data):$/;"	m	class:WMIEXEC
+over_fail_limit	cme/connection.py	/^    def over_fail_limit(self, username):$/;"	m	class:connection
+parse_nessus_file	cme/parsers/nessus.py	/^def parse_nessus_file(nessus_file, protocol):$/;"	f
+parse_nmap_xml	cme/parsers/nmap.py	/^def parse_nmap_xml(nmap_output_file, protocol):$/;"	f
+parse_targets	cme/parsers/ip.py	/^def parse_targets(target):$/;"	f
+pass_pol	cme/protocols/smb.py	/^    def pass_pol(self):$/;"	m	class:smb
+password_not_required	cme/protocols/ldap.py	/^    def password_not_required(self):$/;"	m	class:ldap
+peeknamedpipe_request	cme/modules/ms17-010.py	/^def peeknamedpipe_request(treeid, processid, userid, multiplex_id):$/;"	f
+perform_attack	cme/modules/zerologon.py	/^def perform_attack(dc_handle, dc_ip, target_computer):$/;"	f
+perform_check	cme/modules/mssql_priv.py	/^    def perform_check(self, context, user: User, grantors=[]):$/;"	m	class:CMEModule
+plaintext_login	cme/connection.py	/^    def plaintext_login(self, domain, username, password):$/;"	m	class:connection
+plaintext_login	cme/protocols/ldap.py	/^    def plaintext_login(self, domain, username, password):$/;"	m	class:ldap
+plaintext_login	cme/protocols/ldap/smbldap.py	/^    def plaintext_login(self, domain, username, password, ntlm_hash):$/;"	m	class:LDAPConnect
+plaintext_login	cme/protocols/mssql.py	/^    def plaintext_login(self, domain, username, password):$/;"	m	class:mssql
+plaintext_login	cme/protocols/rdp.py	/^    def plaintext_login(self, domain, username, password):$/;"	m	class:rdp
+plaintext_login	cme/protocols/smb.py	/^    def plaintext_login(self, domain, username, password):$/;"	m	class:smb
+plaintext_login	cme/protocols/ssh.py	/^    def plaintext_login(self, username, password):$/;"	m	class:ssh
+plaintext_login	cme/protocols/winrm.py	/^    def plaintext_login(self, domain, username, password):$/;"	m	class:winrm
+port	cme/helpers/powershell.py	/^                                  port=context.server_port,$/;"	v
+pretty_print	cme/protocols/smb/passpol.py	/^    def pretty_print(self):$/;"	m	class:PassPolDump
+printRepliesCME	cme/protocols/mssql.py	/^def printRepliesCME(self):$/;"	f
+print_credentials	cme/modules/lsassy_dump.py	/^    def print_credentials(context, domain, username, password, lmhash, nthash):$/;"	m	class:CMEModule
+print_host_info	cme/connection.py	/^    def print_host_info(info):$/;"	m	class:connection
+print_host_info	cme/protocols/ldap.py	/^    def print_host_info(self):$/;"	m	class:ldap
+print_host_info	cme/protocols/mssql.py	/^    def print_host_info(self):$/;"	m	class:mssql
+print_host_info	cme/protocols/rdp.py	/^    def print_host_info(self):$/;"	m	class:rdp
+print_host_info	cme/protocols/smb.py	/^    def print_host_info(self):$/;"	m	class:smb
+print_host_info	cme/protocols/ssh.py	/^    def print_host_info(self):$/;"	m	class:ssh
+print_host_info	cme/protocols/winrm.py	/^    def print_host_info(self):$/;"	m	class:winrm
+print_table	cme/cmedb.py	/^    def print_table(self, data, title=None):$/;"	m	class:DatabaseNavigator
+process	cme/logger.py	/^    def process(self, msg, kwargs):$/;"	m	class:CMEAdapter
+process_credentials	cme/modules/lsassy_dump.py	/^    def process_credentials(self, context, connection, credentials):$/;"	m	class:CMEModule
+process_creds	cme/modules/hash_spider.py	/^def process_creds(context, connection, credentials_data, dbconnection, cursor, driver):$/;"	f
+process_record	cme/modules/user_description.py	/^    def process_record(self, item):$/;"	m	class:CMEModule
+process_servers	cme/modules/adcs.py	/^    def process_servers(self, item):$/;"	m	class:CMEModule
+process_templates	cme/modules/adcs.py	/^    def process_templates(self, item):$/;"	m	class:CMEModule
+proto_args	cme/connection.py	/^    def proto_args(std_parser, module_parser):$/;"	m	class:connection
+proto_args	cme/protocols/ldap.py	/^    def proto_args(parser, std_parser, module_parser):$/;"	m	class:ldap
+proto_args	cme/protocols/mssql.py	/^    def proto_args(parser, std_parser, module_parser):$/;"	m	class:mssql
+proto_args	cme/protocols/rdp.py	/^    def proto_args(parser, std_parser, module_parser):$/;"	m	class:rdp
+proto_args	cme/protocols/smb.py	/^    def proto_args(parser, std_parser, module_parser):$/;"	m	class:smb
+proto_args	cme/protocols/ssh.py	/^    def proto_args(parser, std_parser, module_parser):$/;"	m	class:ssh
+proto_args	cme/protocols/winrm.py	/^    def proto_args(parser, std_parser, module_parser):$/;"	m	class:winrm
+proto_flow	cme/connection.py	/^    def proto_flow(self):$/;"	m	class:connection
+proto_flow	cme/protocols/mssql.py	/^    def proto_flow(self):$/;"	m	class:mssql
+proto_flow	cme/protocols/rdp.py	/^    def proto_flow(self):$/;"	m	class:rdp
+proto_flow	cme/protocols/winrm.py	/^    def proto_flow(self):$/;"	m	class:winrm
+proto_logger	cme/connection.py	/^    def proto_logger(self):$/;"	m	class:connection
+proto_logger	cme/protocols/ldap.py	/^    def proto_logger(self):$/;"	m	class:ldap
+proto_logger	cme/protocols/ldap/smbldap.py	/^    def proto_logger(self, host, port, hostname):$/;"	m	class:LDAPConnect
+proto_logger	cme/protocols/mssql.py	/^    def proto_logger(self):$/;"	m	class:mssql
+proto_logger	cme/protocols/rdp.py	/^    def proto_logger(self):$/;"	m	class:rdp
+proto_logger	cme/protocols/smb.py	/^    def proto_logger(self):$/;"	m	class:smb
+proto_logger	cme/protocols/ssh.py	/^    def proto_logger(self):$/;"	m	class:ssh
+proto_logger	cme/protocols/winrm.py	/^    def proto_logger(self):$/;"	m	class:winrm
+protocol_dict	cme/parsers/nessus.py	/^protocol_dict = {$/;"	v
+protocol_dict	cme/parsers/nmap.py	/^protocol_dict = {$/;"	v
+protocol_loader	cme/loaders/protocol_loader.py	/^class protocol_loader:$/;"	c
+protocol_object	cme/cli.py	/^        protocol_object = p_loader.load_protocol(protocols[protocol]['path'])$/;"	v
+ps_execute	cme/protocols/mssql.py	/^    def ps_execute(self, payload=None, get_output=False, methods=None, force_ps32=False, dont_obfs=True):$/;"	m	class:mssql
+ps_execute	cme/protocols/smb.py	/^    def ps_execute(self, payload=None, get_output=False, methods=None, force_ps32=False, dont_obfs=False):$/;"	m	class:smb
+ps_execute	cme/protocols/winrm.py	/^    def ps_execute(self, payload=None, get_output=False):$/;"	m	class:winrm
+put_file	cme/protocols/smb.py	/^    def put_file(self):$/;"	m	class:smb
+query_and_get_output	cme/modules/mssql_priv.py	/^    def query_and_get_output(self, query):$/;"	m	class:CMEModule
+rdp	cme/protocols/rdp.py	/^class rdp(connection):$/;"	c
+rdp_disable	cme/modules/rdp.py	/^    def rdp_disable(self, context, smbconnection):$/;"	m	class:CMEModule
+rdp_enable	cme/modules/rdp.py	/^    def rdp_enable(self, context, smbconnection):$/;"	m	class:CMEModule
+rdp_error_status	cme/protocols/rdp.py	/^rdp_error_status = {$/;"	v
+read	cme/protocols/smb/remotefile.py	/^    def read(self, bytesToRead):$/;"	m	class:RemoteFile
+read_chunk	cme/modules/spider_plus.py	/^    def read_chunk(self, remote_file, chunk_size=CHUNK_SIZE):$/;"	m	class:SMBSpiderPlus
+reconnect	cme/modules/spider_plus.py	/^    def reconnect(self):$/;"	m	class:SMBSpiderPlus
+remove_admin_relation	cme/protocols/mssql/database.py	/^    def remove_admin_relation(self, userIDs=None, hostIDs=None):$/;"	m	class:database
+remove_admin_relation	cme/protocols/smb/database.py	/^    def remove_admin_relation(self, userIDs=None, hostIDs=None):$/;"	m	class:database
+remove_credentials	cme/protocols/mssql/database.py	/^    def remove_credentials(self, credIDs):$/;"	m	class:database
+remove_group_relations	cme/protocols/smb/database.py	/^    def remove_group_relations(self, userID=None, groupID=None):$/;"	m	class:database
+remove_sysadmin_priv	cme/modules/mssql_priv.py	/^    def remove_sysadmin_priv(self) -> bool:$/;"	m	class:CMEModule
+reported_da	cme/modules/hash_spider.py	/^reported_da = []$/;"	v
+requires_admin	cme/connection.py	/^def requires_admin(func):$/;"	f
+requires_smb_server	cme/protocols/smb.py	/^def requires_smb_server(func):$/;"	f
+revert_context	cme/modules/mssql_priv.py	/^    def revert_context(self, exec_as):$/;"	m	class:CMEModule
+rid_brute	cme/protocols/smb.py	/^    def rid_brute(self, maxRid=None):$/;"	m	class:smb
+run	cme/servers/http.py	/^    def run(self):$/;"	m	class:CMEServer
+run	cme/servers/smb.py	/^    def run(self):$/;"	m	class:CMESMBServer
+run_ldap	cme/modules/ldap-checker.py	/^        def run_ldap(inputUser, inputPassword, dcTarget):$/;"	f	function:CMEModule.on_login
+run_ldaps_noEPA	cme/modules/ldap-checker.py	/^        def run_ldaps_noEPA(inputUser, inputPassword, dcTarget):$/;"	f	function:CMEModule.on_login
+run_ldaps_withEPA	cme/modules/ldap-checker.py	/^        async def run_ldaps_withEPA(inputUser, inputPassword, dcTarget):$/;"	f	function:CMEModule.on_login
+run_lsassy	cme/modules/hash_spider.py	/^    def run_lsassy(self, context, connection): # Couldn't figure out how to properly retrieve output from the module without editing. Blatantly ripped from lsassy_dump.py. Thanks pixis - @hackanddo!$/;"	m	class:CMEModule
+run_protocol	cme/crackmapexec.py	/^async def run_protocol(loop, protocol_obj, args, db, target, jitter):$/;"	f
+sam	cme/protocols/smb.py	/^    def sam(self):$/;"	m	class:smb
+sam	cme/protocols/winrm.py	/^    def sam(self):$/;"	m	class:winrm
+save_credentials	cme/modules/lsassy_dump.py	/^    def save_credentials(context, connection, domain, username, password, lmhash, nthash):$/;"	m	class:CMEModule
+save_file	cme/modules/spider_plus.py	/^    def save_file(self, remote_file):$/;"	m	class:SMBSpiderPlus
+screen	cme/protocols/rdp.py	/^    async def screen(self):$/;"	m	class:rdp
+screenshot	cme/protocols/rdp.py	/^    def screenshot(self):$/;"	m	class:rdp
+search	cme/protocols/ldap.py	/^    def search(self, searchFilter, attributes, sizeLimit=0):$/;"	m	class:ldap
+searchResEntry_to_dict	cme/modules/subnets.py	/^def searchResEntry_to_dict(results):$/;"	f
+search_content	cme/protocols/smb/smbspider.py	/^    def search_content(self, path, result):$/;"	m	class:SMBSpider
+seek	cme/protocols/smb/remotefile.py	/^    def seek(self, offset, whence):$/;"	m	class:RemoteFile
+sem	cme/connection.py	/^sem = BoundedSemaphore(1)$/;"	v
+session_setup_andx_request	cme/modules/ms17-010.py	/^def session_setup_andx_request():$/;"	f
+sessions	cme/protocols/smb.py	/^    def sessions(self):$/;"	m	class:smb
+setup_debug_logger	cme/logger.py	/^def setup_debug_logger():$/;"	f
+setup_logger	cme/logger.py	/^def setup_logger(level=logging.INFO, log_to_file=False, log_prefix=None, logger_name='CME'):$/;"	f
+shares	cme/protocols/smb.py	/^    def shares(self):$/;"	m	class:smb
+shutdown	cme/servers/http.py	/^    def shutdown(self):$/;"	m	class:CMEServer
+shutdown	cme/servers/smb.py	/^    def shutdown(self):$/;"	m	class:CMESMBServer
+sid_to_str	cme/protocols/ldap.py	/^    def sid_to_str(self, sid):$/;"	m	class:ldap
+smb	cme/protocols/smb.py	/^class smb(connection):$/;"	c
+smb_error_status	cme/protocols/smb.py	/^smb_error_status = [$/;"	v
+smb_server	cme/protocols/smb.py	/^smb_server = None$/;"	v
+smb_share_name	cme/protocols/smb.py	/^smb_share_name = gen_random_string(5).upper()$/;"	v
+spider	cme/modules/spider_plus.py	/^    def spider(self):$/;"	m	class:SMBSpiderPlus
+spider	cme/protocols/smb.py	/^    def spider(self, share=None, folder='.', pattern=[], regex=[], exclude_dirs=[], depth=None, content=False, onlyfiles=True):$/;"	m	class:smb
+spider	cme/protocols/smb/smbspider.py	/^    def spider(self, share, folder='.', pattern=[], regex=[], exclude_dirs=[], depth=None, content=False, onlyfiles=True):$/;"	m	class:SMBSpider
+spider_pcs	cme/modules/hash_spider.py	/^    def spider_pcs(self, context, connection, cursor, dbconnection, driver):$/;"	m	class:CMEModule
+sql_exec_as	cme/modules/mssql_priv.py	/^    def sql_exec_as(self, grantors: list) -> str:$/;"	m	class:CMEModule
+ssh	cme/protocols/ssh.py	/^class ssh(connection):$/;"	c
+start_threadpool	cme/crackmapexec.py	/^async def start_threadpool(protocol_obj, args, db, targets, jitter):$/;"	f
+std_parser	cme/cli.py	/^    std_parser = argparse.ArgumentParser(add_help=False)$/;"	v
+stop_tracking_host	cme/servers/http.py	/^    def stop_tracking_host(self):$/;"	m	class:RequestHandler
+structure	cme/modules/dfscoerce.py	/^     structure = ($/;"	v	class:NetrDfsAddRootResponse
+structure	cme/modules/dfscoerce.py	/^    structure = ($/;"	v	class:NetrDfsAddRoot
+structure	cme/modules/dfscoerce.py	/^    structure = ($/;"	v	class:NetrDfsRemoveStdRoot
+structure	cme/modules/dfscoerce.py	/^    structure = ($/;"	v	class:NetrDfsRemoveStdRootResponse
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EFS_CERTIFICATE_BLOB
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EFS_EXIM_PIPE
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EFS_HASH_BLOB
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EFS_RPC_BLOB
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:ENCRYPTED_FILE_METADATA_SIGNATURE
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:ENCRYPTION_CERTIFICATE
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:ENCRYPTION_CERTIFICATE_HASH
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:ENCRYPTION_CERTIFICATE_HASH_LIST
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:ENCRYPTION_CERTIFICATE_LIST
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EXIMPORT_CONTEXT_HANDLE
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EfsRpcEncryptFileSrv
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EfsRpcEncryptFileSrvResponse
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EfsRpcOpenFileRaw
+structure	cme/modules/petitpotam.py	/^    structure = ($/;"	v	class:EfsRpcOpenFileRawResponse
+structure	cme/modules/shadowcoerce.py	/^    structure = ($/;"	v	class:IsPathShadowCopied
+structure	cme/modules/shadowcoerce.py	/^    structure = ($/;"	v	class:IsPathShadowCopiedResponse
+structure	cme/modules/shadowcoerce.py	/^    structure = ($/;"	v	class:IsPathSupported
+structure	cme/modules/shadowcoerce.py	/^    structure = ($/;"	v	class:IsPathSupportedResponse
+subparsers	cme/cli.py	/^        subparsers = getattr(protocol_object, protocol).proto_args(subparsers, std_parser, module_parser)$/;"	v
+subparsers	cme/cli.py	/^    subparsers = parser.add_subparsers(title='protocols', dest='protocol', description='available protocols')$/;"	v
+success	cme/logger.py	/^    def success(self, msg, *args, **kwargs):$/;"	m	class:CMEAdapter
+suffixes	cme/modules/spider_plus.py	/^suffixes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB']$/;"	v
+supported_protocols	cme/modules/IOXIDResolver.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/MachineAccountQuota.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/adcs.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/bh_owned.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/dfscoerce.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/drop_searchConnector-ms.py	/^    supported_protocols = ["smb"]$/;"	v	class:CMEModule
+supported_protocols	cme/modules/empire_exec.py	/^    supported_protocols = ['smb', 'mssql']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/enum_avproducts.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/enum_dns.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/example_module.py	/^    supported_protocols = []$/;"	v	class:CMEModule
+supported_protocols	cme/modules/get_description.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/get_netconnections.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/gpp_autologin.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/gpp_password.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/handlekatz.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/hash_spider.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/laps.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/ldap-checker.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/ldap-signing.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/lsassy_dump.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/met_inject.py	/^    supported_protocols = ['smb', 'mssql']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/ms17-010.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/mssql_priv.py	/^    supported_protocols = ['mssql']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/nanodump.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/nopac.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/petitpotam.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/procdump.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/rdp.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/runasppl.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/scuffy.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/shadowcoerce.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/slinky.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/spider_plus.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/spooler.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/subnets.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/test_connection.py	/^    supported_protocols = ['smb', 'mssql']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/uac.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/user_description.py	/^    supported_protocols = ['ldap']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/wdigest.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/web_delivery.py	/^    supported_protocols = ['smb', 'mssql']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/webdav.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/wireless.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+supported_protocols	cme/modules/zerologon.py	/^    supported_protocols = ['smb']$/;"	v	class:CMEModule
+tell	cme/protocols/smb/remotefile.py	/^    def tell(self):$/;"	m	class:RemoteFile
+track_host	cme/servers/http.py	/^    def track_host(self, host_ip):$/;"	m	class:CMEServer
+trans2_request	cme/modules/ms17-010.py	/^def trans2_request(treeid, processid, userid, multiplex_id):$/;"	f
+tree_connect_andx_request	cme/modules/ms17-010.py	/^def tree_connect_andx_request(ip, userid):$/;"	f
+trusted_for_delegation	cme/protocols/ldap.py	/^    def trusted_for_delegation(self):$/;"	m	class:ldap
+try_zero_authenticate	cme/modules/zerologon.py	/^def try_zero_authenticate(rpc_con, dc_handle, dc_ip, target_computer):$/;"	f
+update_priv	cme/modules/mssql_priv.py	/^    def update_priv(self, user: User, exec_as=''):$/;"	m	class:CMEModule
+user_failed_logins	cme/connection.py	/^user_failed_logins = {}$/;"	v
+users	cme/protocols/ldap.py	/^    def users(self):$/;"	m	class:ldap
+users	cme/protocols/smb.py	/^    def users(self):$/;"	m	class:smb
+validate_ntlm	cme/helpers/misc.py	/^def validate_ntlm(data):$/;"	f
+wdigest_disable	cme/modules/wdigest.py	/^    def wdigest_disable(self, context, smbconnection):$/;"	m	class:CMEModule
+wdigest_enable	cme/modules/wdigest.py	/^    def wdigest_enable(self, context, smbconnection):$/;"	m	class:CMEModule
+which	cme/helpers/misc.py	/^def which(cmd, mode=os.F_OK | os.X_OK, path=None):$/;"	f
+winrm	cme/protocols/winrm.py	/^class winrm(connection):$/;"	c
+wmi	cme/protocols/smb.py	/^    def wmi(self, wmi_query=None, namespace=None):$/;"	m	class:smb
+write_configfile	cme/cmedb.py	/^    def write_configfile(self):$/;"	m	class:CMEDBMenu
+write_log	cme/helpers/logger.py	/^def write_log(data, log_name):$/;"	f
